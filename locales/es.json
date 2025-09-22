@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Explorando la IA y el Aprendizaje Automático",
+    "subtitle": "Un viaje interactivo a los conceptos centrales de la inteligencia artificial moderna."
+  },
+  "introduction": {
+    "title": "¿Qué son la IA y el Aprendizaje Automático?",
+    "ai_term": "Inteligencia Artificial (IA)",
+    "ai_definition": "es un campo amplio de la informática dedicado a crear máquinas que pueden realizar tareas que normalmente requieren inteligencia humana. Esto incluye cosas como el aprendizaje, el razonamiento, la resolución de problemas, la percepción y la comprensión del lenguaje. Piense en ello como el gran objetivo de hacer que las computadoras sean 'inteligentes'.",
+    "ml_term": "Aprendizaje Automático (ML)",
+    "ml_definition": "es un poderoso subconjunto de la IA. En lugar de programar una computadora con reglas explícitas para realizar una tarea, el ML implica desarrollar algoritmos que permiten a la computadora aprender de los datos. Encuentra patrones, hace predicciones y mejora su rendimiento con el tiempo a medida que se expone a más información. Es el motor que impulsa muchas de las aplicaciones de IA que utilizamos hoy en día."
+  },
+  "concepts": {
+    "title": "Conceptos Clave",
+    "ai": {
+      "title": "Inteligencia Artificial (IA)",
+      "description": "La simulación de la inteligencia humana en máquinas, permitiéndoles aprender, razonar, percibir y resolver problemas."
+    },
+    "ml": {
+      "title": "Aprendizaje Automático (ML)",
+      "description": "Un subconjunto de la IA donde los sistemas aprenden y mejoran a partir de la experiencia sin ser programados explícitamente. Se enfoca en desarrollar algoritmos que pueden analizar datos y hacer predicciones."
+    },
+    "neural_networks": {
+      "title": "Redes Neuronales",
+      "description": "Sistemas informáticos inspirados en las redes neuronales biológicas de los cerebros de los animales. Son la base del aprendizaje profundo y se utilizan para tareas como el reconocimiento de patrones."
+    },
+    "deep_learning": {
+      "title": "Aprendizaje Profundo",
+      "description": "Un subcampo del aprendizaje automático basado en redes neuronales artificiales con muchas capas (arquitecturas profundas). Ha llevado a avances en el reconocimiento de voz y la visión por computadora."
+    }
+  },
+  "demo": {
+    "title": "Demostración en Vivo: Análisis de Sentimientos",
+    "description": "Introduzca una oración a continuación y deje que Gemini analice su sentimiento. ¿Es positivo, negativo o neutral?",
+    "placeholder": "ej., '¡La nueva computadora cuántica es asombrosamente rápida!'",
+    "button_classify": "Clasificar Sentimiento",
+    "button_analyzing": "Analizando...",
+    "sentiment_label": "Sentimiento:",
+    "sentiments": {
+      "positive": "Positivo",
+      "negative": "Negativo",
+      "neutral": "Neutral"
+    },
+    "error_message": "Error: {{message}}"
+  },
+  "footer": {
+    "built_with": "Construido con React, Tailwind CSS y la API de Gemini."
+  },
+  "languages": {
+    "en": "Inglés",
+    "ar": "Árabe",
+    "es": "Español"
+  }
+}

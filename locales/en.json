@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Exploring AI & Machine Learning",
+    "subtitle": "An interactive journey into the core concepts of modern artificial intelligence."
+  },
+  "introduction": {
+    "title": "What are AI & Machine Learning?",
+    "ai_term": "Artificial Intelligence (AI)",
+    "ai_definition": "is a broad field of computer science dedicated to creating machines that can perform tasks that typically require human intelligence. This includes things like learning, reasoning, problem-solving, perception, and language understanding. Think of it as the grand goal of making computers 'smart.'",
+    "ml_term": "Machine Learning (ML)",
+    "ml_definition": "is a powerful subset of AI. Instead of programming a computer with explicit rules to perform a task, ML involves developing algorithms that allow the computer to learn from data. It finds patterns, makes predictions, and improves its performance over time as it's exposed to more information. It's the engine that drives many of the AI applications we use today."
+  },
+  "concepts": {
+    "title": "Core Concepts",
+    "ai": {
+      "title": "Artificial Intelligence (AI)",
+      "description": "The simulation of human intelligence in machines, enabling them to learn, reason, perceive, and solve problems."
+    },
+    "ml": {
+      "title": "Machine Learning (ML)",
+      "description": "A subset of AI where systems learn and improve from experience without being explicitly programmed. It focuses on developing algorithms that can analyze data and make predictions."
+    },
+    "neural_networks": {
+      "title": "Neural Networks",
+      "description": "Computing systems inspired by the biological neural networks of animal brains. They are the foundation of deep learning and are used for tasks like pattern recognition."
+    },
+    "deep_learning": {
+      "title": "Deep Learning",
+      "description": "A subfield of machine learning based on artificial neural networks with many layers (deep architectures). It has led to breakthroughs in speech recognition and computer vision."
+    }
+  },
+  "demo": {
+    "title": "Live Demo: Sentiment Analysis",
+    "description": "Enter a sentence below and let Gemini analyze its sentiment. Is it positive, negative, or neutral?",
+    "placeholder": "e.g., 'The new quantum computer is astonishingly fast!'",
+    "button_classify": "Classify Sentiment",
+    "button_analyzing": "Analyzing...",
+    "sentiment_label": "Sentiment:",
+    "sentiments": {
+      "positive": "Positive",
+      "negative": "Negative",
+      "neutral": "Neutral"
+    },
+    "error_message": "Error: {{message}}"
+  },
+  "footer": {
+    "built_with": "Built with React, Tailwind CSS, and the Gemini API."
+  },
+  "languages": {
+    "en": "English",
+    "ar": "Arabic",
+    "es": "Spanish"
+  }
+}

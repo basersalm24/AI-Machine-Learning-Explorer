@@ -1,0 +1,5 @@
+{
+  "name": "AI & Machine Learning Explorer",
+  "description": "An interactive web application to explore the fundamental concepts of Artificial Intelligence and Machine Learning, featuring a live sentiment analysis demo powered by Gemini.",
+  "requestFramePermissions": []
+}
